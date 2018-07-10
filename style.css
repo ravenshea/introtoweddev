@@ -1,0 +1,44 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: #ca6a6a;
+  background-image: url("kittens-cat-cat-puppy-rush-45170.jpg")
+    ;
+  font-family: "merriweather", sans-serif;
+  padding: 5px 25px 5px 25px;
+  font-size: 30px;
+  margin: 10px;
+  color: #fff5f5;
+  border-style: ridge
+    
+}
+
+h1 {
+  font-family: "oswald", serif;
+  font-size: 60px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
